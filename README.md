@@ -17,8 +17,13 @@ Consider the following stochastic process that describes 3 states of the labor m
 
 The Initial state matrix looks like:
 
-$\begin{bmatrix}
+$$v_{0}=\begin{bmatrix}
 e \\
 u \\
 1-e-u
-\end{bmatrix}$
+\end{bmatrix}$$
+
+$$X = \begin{bmatrix}1 & x_{1}\\
+1 & x_{2}\\
+1 & x_{3}
+\end{bmatrix}$$
