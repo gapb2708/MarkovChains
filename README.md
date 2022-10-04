@@ -17,8 +17,8 @@ Consider the following stochastic process that describes 3 states of the labor m
 
 The Initial state matrix looks like:
 
-$ \begin{bmatrix}
+$\begin{bmatrix}
 e \\
 u \\
 1-e-u
-\end{bmatrix}  $
+\end{bmatrix}$
