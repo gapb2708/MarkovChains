@@ -15,7 +15,7 @@ Consider the following stochastic process that describes 3 states of the labor m
 
 - If a person is unemployed in in $t$: $f_{1}$ is the probability of finding a formal job in $t+1$; $f_{2}$ is the probability of finding an informal job in $t+1$ and, finally; $1-f_{1}-f_{2}$ is the probability of staying unemployed in $t+1$.
 
-The Initial state matrix looks like:
+The Initial state matrix $v_{0}$ looks like:
 
 $$v_{0}=\begin{bmatrix}
 e \\
@@ -23,7 +23,12 @@ u \\
 1-e-u
 \end{bmatrix}$$
 
-$$X = \begin{bmatrix}1 & x_{1}\\
-1 & x_{2}\\
-1 & x_{3}
+where $e=employed ; u=unemployed ;  1-e-u=informal$
+
+The transition matrix P is defined as:
+
+$$P=\begin{bmatrix}
+\rho_1 & s_1 & 1-\rho_1-s_1 \\
+s_2 & \rho_2 & 1-s_2-\rho_2 \\
+f_1 & f_2 & 1-f_1-f_2
 \end{bmatrix}$$
