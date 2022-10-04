@@ -37,7 +37,7 @@ Our model assumes a monthly frequency.
 
 The base calibration is:
 
-- $rho_1= 0.90 ; s_1=0.09 ; \rho_2=0.8 ; s_2=0.19 ; f_1= 0.1 ; f_2= 0.05
+- $\rho_1= 0.90 ; s_1=0.09 ; \rho_2=0.8 ; s_2=0.19 ; f_1= 0.1 ; f_2= 0.05$
 
 With this program we calculate:
 
