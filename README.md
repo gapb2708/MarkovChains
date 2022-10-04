@@ -21,9 +21,9 @@ $$v_0=\beginbmatrix
 e \\
 u \\
 1-e-u
-\endbmatrix$$
+\endbmatrix$$  
 
-where $e=employed ; u=unemployed ;  1-e-u=informal$
+where $e=employed ; u=unemployed ;  1-e-u=informal$  
 
 The transition matrix P is defined as:
 
@@ -31,7 +31,7 @@ $$P=\beginbmatrix
 \rho_1 & s_1 & 1-\rho_1-s_1 \\
 s_2 & \rho_2 & 1-s_2-\rho_2 \\
 f_1 & f_2 & 1-f_1-f_2
-\endbmatrix$$
+\endbmatrix$$  
 
 Our model assumes a monthly frequency.  
 
@@ -41,6 +41,6 @@ The base calibration is:
 
 With this program we calculate:
 
--the probability of finding a job being unemployed after 12 months.
--the stationary state of the model.
--what happens to the stationary state if we change some parameters.
+- The probability of finding a job being unemployed after 12 months.
+- The stationary state of the model.
+- What happens to the stationary state if we change some parameters.
